@@ -1,5 +1,5 @@
 import 'bulma/css/bulma.min.css';
-import { Hero, Heading, Container } from 'react-bulma-components';
+import { Hero, Container } from 'react-bulma-components';
 
 import { ColegasProvider } from 'contexts/colegas'
 import { Cadastro } from 'components/Cadastro'
