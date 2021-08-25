@@ -1,3 +1,6 @@
+import React from 'react'
+import { Table, Button } from 'react-bulma-components';
+
 import { useColegas } from 'contexts/colegas'
 
 export function TabelaDeContatos() {
@@ -9,26 +12,34 @@ export function TabelaDeContatos() {
 
   return (
     <main>
-      <table>
-        <tr>
-          <th>Falou</th>
-          <th>Colega</th>
-          <th>Excluir</th>
-        </tr>
-        {colegas.map((nome, i) => (
-          <tr key={i}>
-            <td>
-              <input type='checkbox'/>
-            </td>
-            <td>
-              {nome}
-            </td>
-            <td>
-              <button onClick={e => handleExcluir(i)}>Excluir</button>
-            </td>
+      <Table size='fullwidth' hoverable>
+        <thead>
+          <tr>
+            <th>Falou</th>
+            <th>Colega</th>
+            <th>Excluir</th>
           </tr>
-        ))}
-      </table>
+        </thead>
+        <tbody>
+          {colegas.map((nome, i) => (
+            <tr key={i}>
+              <td>
+                <input type='checkbox'/>
+              </td>
+              <td>
+                {nome}
+              </td>
+              <td>
+                <Button
+                  color='danger'
+                  onClick={(e: React.FormEvent) => handleExcluir(i)}>
+                  Excluir
+                </Button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </Table>
     </main>
   );
 }

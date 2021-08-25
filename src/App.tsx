@@ -1,3 +1,6 @@
+import 'bulma/css/bulma.min.css';
+import { Hero, Heading, Container } from 'react-bulma-components';
+
 import { ColegasProvider } from 'contexts/colegas'
 import { Cadastro } from 'components/Cadastro'
 import { TabelaDeContatos } from 'components/TabelaDeContatos'
@@ -6,8 +9,14 @@ function App() {
   return (
     <main>
       <ColegasProvider>
-        <Cadastro />
-        <TabelaDeContatos />
+        <Hero size='fullheight'>
+          <Hero.Body>
+            <Container>
+                  <Cadastro />
+                  <TabelaDeContatos />
+            </Container>
+          </Hero.Body>
+        </Hero>
       </ColegasProvider>
     </main>
   )
