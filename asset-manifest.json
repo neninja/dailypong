@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/dailypong/static/js/main.91ff943c.chunk.js",
-    "main.js.map": "/dailypong/static/js/main.91ff943c.chunk.js.map",
+    "main.js": "/dailypong/static/js/main.76888bfc.chunk.js",
+    "main.js.map": "/dailypong/static/js/main.76888bfc.chunk.js.map",
     "runtime-main.js": "/dailypong/static/js/runtime-main.08766a25.js",
     "runtime-main.js.map": "/dailypong/static/js/runtime-main.08766a25.js.map",
     "static/css/2.f9dc9d5b.chunk.css": "/dailypong/static/css/2.f9dc9d5b.chunk.css",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.08766a25.js",
     "static/css/2.f9dc9d5b.chunk.css",
     "static/js/2.7d00a3f4.chunk.js",
-    "static/js/main.91ff943c.chunk.js"
+    "static/js/main.76888bfc.chunk.js"
   ]
 }
