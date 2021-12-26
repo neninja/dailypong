@@ -12,8 +12,14 @@ function App() {
         <Hero size='fullheight'>
           <Hero.Body>
             <Container>
-                  <Cadastro />
-                  <TabelaDeContatos />
+              <TabelaDeContatos />
+            </Container>
+          </Hero.Body>
+        </Hero>
+        <Hero size='fullheight'>
+          <Hero.Body>
+            <Container>
+              <Cadastro />
             </Container>
           </Hero.Body>
         </Hero>

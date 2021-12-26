@@ -15,21 +15,22 @@ export function TabelaDeContatos() {
       <Table size='fullwidth' hoverable>
         <thead>
           <tr>
-            <th>Falou</th>
             <th>Colega</th>
-            <th>Excluir</th>
+            <th className="has-text-right">Excluir</th>
           </tr>
         </thead>
         <tbody>
           {colegas.map((nome, i) => (
             <tr key={i}>
               <td>
+                <label>
                 <input type='checkbox'/>
-              </td>
-              <td>
+                  <span style={{marginLeft: '1rem'}}>
                 {nome}
+                  </span>
+                </label>
               </td>
-              <td>
+              <td className="has-text-right">
                 <Button
                   color='danger'
                   onClick={(e: React.FormEvent) => handleExcluir(i)}>
