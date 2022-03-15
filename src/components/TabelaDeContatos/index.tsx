@@ -16,7 +16,7 @@ export function TabelaDeContatos() {
         <thead>
           <tr>
             <th>Colega</th>
-            <th className="has-text-right">Excluir</th>
+            <th className="has-text-right">Ações</th>
           </tr>
         </thead>
         <tbody>
