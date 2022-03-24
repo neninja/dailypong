@@ -3,7 +3,7 @@ import { Hero, Container } from 'react-bulma-components';
 
 import { ColegasProvider } from 'contexts/colegas'
 import { Cadastro } from 'components/Cadastro'
-import { TabelaDeContatos } from 'components/TabelaDeContatos'
+import ListaDeColegas from 'components/ListaDeColegas'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <Hero size='fullheight'>
           <Hero.Body>
             <Container>
-              <TabelaDeContatos />
+              <ListaDeColegas />
             </Container>
           </Hero.Body>
         </Hero>

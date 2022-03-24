@@ -1,0 +1,33 @@
+label ~ span:after {
+    content: '+';
+    cursor: pointer;
+    display: inline-block;
+    transform: rotate(45deg);
+}
+
+label ~ span:hover:after {
+    color: red;
+}
+
+label {
+    cursor: pointer;
+    padding-right: 4rem;
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+}
+
+label:hover {
+    color: blue;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ span {
+    text-decoration: line-through;
+    text-decoration-thickness: 0.15rem;
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: normal;
+}
