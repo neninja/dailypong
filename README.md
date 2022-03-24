@@ -8,4 +8,4 @@
 docker-compose up
 ```
 
-> Pare o servidor com <kbd>ctrl</kbd><kbd>c</kbd> e ``docker-compose down``
+> Pare o servidor com <kbd>ctrl</kbd><kbd>c</kbd>
