@@ -11,7 +11,7 @@ label ~ span:hover:after {
 
 label {
     cursor: pointer;
-    padding-right: 4rem;
+    padding-right: 2rem;
     display: inline-block;
     width: 100%;
     font-weight: bold;
