@@ -4,9 +4,8 @@
 
 ## Desenvolvimento
 
-
 ```sh
 docker-compose up
 ```
 
-> Pare o servidor com <kbd>ctrl</kbd><kbd>c</kbd>
+> Pare o servidor com <kbd>ctrl</kbd><kbd>c</kbd> e ``docker-compose down``
