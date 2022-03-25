@@ -13,7 +13,7 @@ export default function C() {
   }
 
   return (
-    <Columns renderAs="ul">
+    <Columns renderAs="ul" breakpoint="mobile">
       {colegas.map((nome, i) => (
         <Columns.Column narrow={true} renderAs="li">
           <Card>
