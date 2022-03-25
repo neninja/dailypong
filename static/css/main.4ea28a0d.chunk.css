@@ -1,2 +1,0 @@
-label~span:after{content:"+";cursor:pointer;display:inline-block;transform:rotate(45deg)}label~span:hover:after{color:red}label{cursor:pointer;padding-right:4rem;display:inline-block;width:100%;font-weight:700}label:hover{color:#00f}input[type=checkbox]{display:none}input[type=checkbox]:checked~span{text-decoration:line-through;text-decoration-thickness:.15rem;color:rgba(0,0,0,.3);font-weight:400}
-/*# sourceMappingURL=main.4ea28a0d.chunk.css.map */
