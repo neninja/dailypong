@@ -9,8 +9,8 @@ export function Cadastro(){
 
   function handleSubmit(e: React.FormEvent){
     e.preventDefault()
-
-    setColegas([...colegas, colega])
+    const sorted = [...colegas, colega].sort()
+    setColegas(sorted)
     setColega("")
   }
 
